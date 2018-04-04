@@ -5,7 +5,7 @@
   "main": "npm run watch",
   "scripts": {
     "watch": "webpack --watch",
-    "start": "webpack",
+    "start": "webpack --watch",
     "test": "npm test"
   },
   "repository": {
@@ -26,6 +26,8 @@
     "three": "^0.91.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13"
   }
