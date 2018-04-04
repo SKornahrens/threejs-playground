@@ -1,0 +1,32 @@
+{
+  "name": "threejs-playground",
+  "version": "1.0.0",
+  "description": "learning threejs",
+  "main": "npm run watch",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKornahrens/threejs-playground.git"
+  },
+  "keywords": [
+    "threejs"
+  ],
+  "author": "Steve Kornahrens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKornahrens/threejs-playground/issues"
+  },
+  "homepage": "https://github.com/SKornahrens/threejs-playground#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "three": "^0.91.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
