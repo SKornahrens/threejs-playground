@@ -17,7 +17,7 @@ const config = {
       // ./public directory is being served
       host: 'localhost',
       port: 3000,
-      files: ['.dist/*.html']
+      files: ['.dist/*.html'],
       server: { baseDir: ['dist'] }
     })
   ]
